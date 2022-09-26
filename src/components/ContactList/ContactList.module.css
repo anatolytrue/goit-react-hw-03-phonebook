@@ -1,0 +1,26 @@
+.phonebookContactList{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        border: 1px solid black;
+        min-width: 350px;
+        list-style:square;
+}
+
+.phonebookContactListItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.phonebookContactListBtn{
+    min-height: 16px;
+    margin-left: 12px;
+    background-color:peru;
+    color:antiquewhite;
+    border-style: none;
+    border-radius: 4px;
+    padding: 4px;
+}
